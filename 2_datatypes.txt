@@ -1,0 +1,44 @@
+# DATA TYPES:-
+
+    # My name is Shivkumar
+    # my_name = 'Shivkumar'   ==> Text
+
+    # My Age is 32
+    # my_age = 32     ==> Numeric
+
+
+# We store data in computer using variables.
+
+# I want to know shivkumars body mass index (BMI)
+# Height, Weight
+
+# In the name 'Shivkumar'  how many vowels.
+
+---------------------------------------------------
+
+    # Python has Divided Data into multiple Datatypes:
+        # Primitive Datatypes
+            # Numeric:-
+                # INT ==> Integer
+                # Float 
+                # Complex
+
+            # String
+            # Boolean
+        # Non-Primitive Datatypes (Collection Datatypes)
+            # List 
+            # Tuple
+            # Set
+            # Frozen Set
+
+            # Dictionary
+
+            # Range
+
+            # Bytes
+            # Bytearray
+            
+
+
+
+
