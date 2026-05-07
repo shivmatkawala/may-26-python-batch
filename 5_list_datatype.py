@@ -98,3 +98,100 @@ list3 = [1, 2]
 # print(list3)
 
 #------------------------------------
+# Remove Elements from list:
+
+# list4 = [12, 23, 34, 45, 56, 67, 78, 89, 90, 56]
+
+# # .remove => removes the first apperence of a specified element.
+# list4.remove(56)   #[12, 23, 34, 45, 67, 78, 89, 90]
+# list4.remove(12)
+# # list4.remove(100) # ValueError: list.remove(x): x not in list
+
+# print(list4)
+
+# .pop() ==> removes element from specified index
+# list4.pop(4)
+# # list4.pop(15)  #IndexError: pop index out of range
+# list4.pop()  # if you do not provide any index it removes the last element of list
+
+# print(list4)
+
+# .clear() ==> removes all elements from list and make it empty.
+
+# list4.clear()
+# print(list4)   #[]
+
+#------------------------------------------------------
+
+# .copy()  ==> create exact same replica of list
+
+# l1 = [1, 2, 3, 4]
+
+# l2 = l1
+
+# l1.remove(4)
+
+# print(f"l2:- {l2}, id:- {id(l2)}")
+# print(f"l1:- {l1}, id:- {id(l2)}")
+
+# l1 = [1, 2, 3, 4]
+
+# l2 = l1.copy()
+
+# l1.remove(4)
+
+# print(f"l1: {l1}, id: {id(l1)}")
+# print(f"l2: {l2}, id: {id(l2)}")
+
+# l1 = [1, 2, 3, [4, 5, 6]]
+# l2 = l1.copy()
+
+# # l1.remove(3)
+# l1[3][0] = 10
+
+# print(f"l1:- {l1}, id:- {id(l1)}")
+# print(f"l2:- {l2}, id:- {id(l2)}")
+
+# import copy
+
+# l1 = [1, 2, 3, [4, 5, 6]]
+
+# l2 = copy.deepcopy(l1)
+
+# l1[3][0] = 10
+
+# print(f"l1: {l1}, id: {id(l1)}")
+# print(f"l2: {l2}, id: {id(l2)}")
+
+#-------------------------------------
+
+# .count()
+
+list6 = [1, 2, 1, 3, 4,2, 5, 5, 6, 1, 2, 7, 1, 1, 8, 10]
+
+# i want the count of 1 => How many times 1 is appearing in list.
+
+# print(list6.count(1))
+# print(list6.count(5))
+
+
+# Repetation
+
+# l1 = [1, 2, 3]
+# print(l1 * 2)
+# print(l1 * 5)
+# print(l1)
+
+
+# concatination:
+# l1 = [1, 2, 3]
+# l2 = [4, 5, 6]
+# print(l1 + l2)
+
+# Packing and Unpacking
+
+# a, b, c, d, e = [1, 2, 3, 4, 5]
+# print(a)
+# print(b)
+# print(c)
+# print(d)
