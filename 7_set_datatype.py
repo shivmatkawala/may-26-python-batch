@@ -100,3 +100,127 @@
 
 # Set is Mutable means set can be changed
 # But inside set we can only store immutable values means only those values which can not be changed
+
+#-----------------------------------------------------------------
+
+# SET Operations:-
+
+# Union    |
+# set1 = {1, 2, 3, 4}
+# set2 = {3, 4, 5, 6}
+
+# set3 = set1 | set2
+# print(set3)    #{1, 2, 3, 4, 5, 6}
+
+
+# Difference    -
+# set1 = {1, 2, 3, 4}
+# set2 = {3, 4, 5, 6}
+
+# set3 = set1 - set2
+# print(set3)    #{1, 2}
+
+# set4 = set2 - set1
+# print(set4)    #{5, 6}
+
+# Intersection   &
+# set1 = {1, 2, 3, 4}
+# set2 = {3, 4, 5, 6}
+
+
+# set3 = set1 & set2     
+# print(set3)   #{3, 4}
+
+
+#--------------------------------
+
+# set1 = {10, 34, 45, 67, 9}
+# set2 = {34, 45, 45, 67, 1}
+
+# Union 
+
+# set3 = set1.union(set2)
+# print(set3)
+
+# Difference
+# set4 = set1.difference(set2)
+# print(set4)
+
+# set5 = set2.difference(set1)
+# print(set5)
+
+
+# Intersection
+
+# set6 = set1.intersection(set2)
+# print(set6)
+
+#------------------------------------
+
+# Symmetric Difference:-
+
+set1 = {"A", "B", "C", "D"}
+set2 = {'C', 'D', "E", "F"}
+
+# set3 = set1.symmetric_difference(set2)
+# print(set3)
+
+# Symetric Difference Update:-
+# set1.symmetric_difference_update(set2)
+# print(set1)
+
+# set2.symmetric_difference_update(set1)
+# print(set2)
+
+# Intersection Update
+# set1.intersection_update(set2)
+# print(set1)
+
+# set2.intersection_update(set1)
+# print(set2)
+
+# Difference Update
+# set1.difference_update(set2)
+# print(set1)
+
+# set2.difference_update(set1)
+# print(set2)
+
+
+#----------------------------------------
+
+# set1 = {1, 2, 3, 4, 5, 6}  # superset of set2
+# set2 = {4, 5}  # subset  of set1
+
+# print(set1.issuperset(set2))  #True
+# print(set2.issubset(set1))  # True
+
+# print(set1.issubset(set2))
+# print(set2.issuperset(set1))
+
+
+# s1 = {1, 2, 3, 4, 5, 6, 7, 8, 9 ,0 , -1}
+# s2 = {True, 2, 3, False}
+
+# print(s1.issuperset(s2))  #True
+# print(s2.issubset(s1))
+
+
+#----------------------------
+# disjoint
+
+# s1 = {4, 5, 6, 7, 8}
+# s2 = {7, 8, 9, 10, 11}
+# print(s1.isdisjoint(s2))  # False
+
+
+
+# Repetation cant be performed on set
+
+# Packing & Unpacking
+# a, b, c = {10, 2, 3}
+# print(a)
+# print(b)
+# print(c)
+
+# Concatination is not possible on set
