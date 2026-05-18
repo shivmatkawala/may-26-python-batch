@@ -211,3 +211,6 @@ fav_primary_color = input("Enter your favourate Primary color: ")
 # if user age is bellow 18  print "Minor"
 # if user age is 18 or bellow 50 "Major"
 # id user age  is above 50 "Old"
+
+
+# --------------------------------
