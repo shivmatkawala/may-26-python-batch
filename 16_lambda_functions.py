@@ -102,3 +102,23 @@ from functools import reduce
 
 # result = "".join(list(map(lambda x: x.lower(), str1)))
 # print(result)
+
+
+#---------------------------------------
+# l1 = [1, 2, 3, 4, 5, 6, 7, 8]
+# t1 = (1, 2, 3, 4, 5, 6, 7, 8)
+# s1 = {1, 2, 3, 4, 5, 6, 7, 8}
+# str1 = "HellO"
+# d1 = {1:1, 2:4, 3:9, 4:16, 5:25, 6:36, 7:49, 8:64}
+
+# # map   ==> to perform operation on each element of collection
+# l2 = list(map(lambda num: num * 2, l1))
+# print(f"l2: {l2}")
+
+# # filter => to filter out the collection 
+# l3 = list(filter(lambda num: num if num%2 ==0 else "", l1))
+
+# print(f"l3: {l3}")
+# # reduce => to get simgle element as aanswer
+# l4 = reduce(lambda num1, num2: num1 + num2, l1)
+# print(f"l4: {l4}")
