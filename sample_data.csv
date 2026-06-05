@@ -1,0 +1,16 @@
+id,name,email,age,city,country,department,salary,join_date,active
+1,Alice Johnson,alice.johnson@example.com,34,New York,USA,Engineering,95000,2021-03-15,true
+2,Bob Smith,bob.smith@example.com,28,London,UK,Marketing,62000,2022-07-01,true
+3,Carol White,carol.white@example.com,45,Toronto,Canada,Finance,88000,2019-11-20,true
+4,David Lee,david.lee@example.com,31,Sydney,Australia,Engineering,91000,2020-05-10,true
+5,Eva Martinez,eva.martinez@example.com,27,Madrid,Spain,Design,57000,2023-01-08,true
+6,Frank Chen,frank.chen@example.com,39,Singapore,Singapore,Engineering,105000,2018-09-30,true
+7,Grace Kim,grace.kim@example.com,33,Seoul,South Korea,HR,54000,2021-06-14,false
+8,Henry Brown,henry.brown@example.com,52,Chicago,USA,Finance,112000,2015-04-22,true
+9,Isla Davis,isla.davis@example.com,29,Dublin,Ireland,Marketing,60000,2022-10-03,true
+10,James Wilson,james.wilson@example.com,41,Berlin,Germany,Product,98000,2017-12-11,true
+11,Karen Taylor,karen.taylor@example.com,36,Paris,France,Design,67000,2020-08-19,true
+12,Liam Anderson,liam.anderson@example.com,24,Amsterdam,Netherlands,Engineering,72000,2023-03-27,true
+13,Mia Thomas,mia.thomas@example.com,30,Mumbai,India,Engineering,45000,2021-09-05,false
+14,Noah Jackson,noah.jackson@example.com,47,São Paulo,Brazil,Sales,78000,2016-02-17,true
+15,Olivia Harris,olivia.harris@example.com,26,Cape Town,South Africa,Marketing,41000,2023-06-01,true
